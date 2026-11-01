@@ -27,6 +27,15 @@ Otimizar a logística de entrega a partir de um Hospital Central para 5 destinos
 * `/docs`: Relatório Técnico exigido pelo edital.
 * `/assets`: Mapas HTML interativos e capturas de tela.
 
+## ⚙️ Estrutura do Projeto e Ambiente Virtual
+
+Para garantir o isolamento das dependências e cumprir os requisitos de engenharia de software do projeto, a configuração do ambiente utiliza a ferramenta padrão do Python (`venv`). Siga os passos abaixo para configurar o ambiente de execução localmente:
+
+1. **Clonar o repositório:**
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+   cd SEU_REPOSITORIO
+
 ## ⚙️ Como Executar
 1. Clone este repositório.
 2. Instale as dependências: `pip install folium polyline google-generativeai requests`
