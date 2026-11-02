@@ -131,10 +131,23 @@ pytest</code></pre>
 
   <h2 id="8-estrutura-do-repositório">📁 8. Estrutura do Repositório</h2>
   <pre><code>fiap-tech-challenge-fase2/
-├── Tech_Challenge_Fase2_VRP.ipynb        # Notebook principal (11 blocos completos)
-├── Relatorio_Tecnico_Projeto2_Final.pdf  # Relatório executivo consolidado em PDF
-├── requirements.txt                      # Dependências do projeto com controle de versão
-└── README.md                             # Documentação técnica do projeto</code></pre>
+    ├── src/                                      # Código-fonte e scripts modulares
+    │   ├── Projeto_2_Otimizacao_Rotas_V10.ipynb  # Notebook principal contendo os 11 blocos executáveis
+    │   ├── projeto_2_otimizacao_rotas_v10.py     # Versão em script Python do notebook principal
+    │   └── test_vrp.py                           # Suíte de testes automatizados com pytest (validação de capacidade e autonomia)
+    │
+    ├── docs/                                     # Documentação de apoio, relatórios e manuais
+    │   └── Relatorio_Tecnico_Projeto2_Final.pdf  # Relatório executivo consolidado em PDF do Tech Challenge
+    │
+    ├── assets/                                   # Recursos visuais, mapas e gráficos
+    │   ├── grafico_abstrato.png                  # Gráfico em espaço cartesiano do Algoritmo Genético
+    │   ├── mapa_final.png                        # Captura de tela do mapa interativo (Visão Geral SJC)
+    │   ├── mapa_final.html                       # Código HTML interativo do mapa principal
+    │   ├── mapa_real_final.png                   # Captura de tela do mapa em malha viária real (OSRM)
+    │   └── mapa_real_final.html                  # Código HTML interativo do mapa viário OSRM
+    │
+    ├── requirements.txt                          # Dependências do projeto versionadas (com numpy, pandas, selenium, reportlab, google-genai, pytest, etc.)
+    └── README.md                                 # Documentação técnica oficial e guião do repositório
 
   <hr>
 
