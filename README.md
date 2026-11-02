@@ -154,6 +154,6 @@ pytest</code></pre>
   <h2 id="9-vídeo-de-demonstração">🎥 9. Vídeo de Demonstração</h2>
   <p>Assista à apresentação completa da arquitetura, execução ao vivo dos algoritmos, mapas OSRM e integração com o Google Gemini:</p>
   <ul>
-    <li><strong>Link do Vídeo no YouTube:</strong> [Inserir Link do Vídeo Aqui]</li>
+    <li><strong>Link do Vídeo no YouTube:</strong>https://www.youtube.com/watch?v=Nl4leWoyAx4</li>
   </ul>
 </div>
