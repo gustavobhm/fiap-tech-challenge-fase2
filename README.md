@@ -148,7 +148,7 @@ pytest</code></pre>
     │
     ├── requirements.txt                          # Dependências do projeto versionadas (com numpy, pandas, selenium, reportlab, google-genai, pytest, etc.)
     └── README.md                                 # Documentação técnica oficial e guião do repositório
-
+  </code></pre>
   <hr>
 
   <h2 id="9-vídeo-de-demonstração">🎥 9. Vídeo de Demonstração</h2>
